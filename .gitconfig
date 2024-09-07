@@ -11,5 +11,4 @@
 	required = true
 [filter "obsidian-graph-scale-ignore"]
 	clean = sed /"scale"/d
-[filter "obsidian-graph-scale-ignore"]
 	smudge = cat
