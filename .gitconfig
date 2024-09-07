@@ -2,8 +2,8 @@
 	editor = \"C:\\Users\\d\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 	autocrlf = false
 [user]
-	name = Esoteric Slime
-	email = 90862990+EsotericSlime@users.noreply.github.com
+	name = "Esoteric Slime"
+	email = "90862990+EsotericSlime@users.noreply.github.com"
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
