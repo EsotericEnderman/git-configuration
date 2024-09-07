@@ -1,0 +1,15 @@
+[core]
+	editor = \"C:\\Users\\d\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	autocrlf = false
+[user]
+	name = Slqmy
+	email = 90862990+Slqmy@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[filter "obsidian-graph-scale-ignore"]
+	clean = sed /"scale"/d
+[filter "obsidian-graph-scale-ignore"]
+	smudge = cat
