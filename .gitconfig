@@ -14,3 +14,5 @@
 	smudge = cat
 [credential "https://www.github.com"]
 	provider = github
+[safe]
+	directory = *
