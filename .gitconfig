@@ -12,3 +12,5 @@
 [filter "obsidian-graph-scale-ignore"]
 	clean = sed /"scale"/d
 	smudge = cat
+[credential "https://www.github.com"]
+	provider = github
