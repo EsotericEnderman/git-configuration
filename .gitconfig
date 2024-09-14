@@ -1,7 +1,7 @@
 [core]
 	autocrlf = false
 [user]
-	name = "The Esoteric Enderman"
+	name = "Esoteric Enderman"
 	email = "90862990+EsotericEnderman@users.noreply.github.com"
 [filter "lfs"]
 	clean = git-lfs clean -- %f
