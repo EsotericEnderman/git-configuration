@@ -1,4 +1,5 @@
 [core]
+	editor = \"C:\\Users\\d\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 	autocrlf = false
 [user]
 	name = "Esoteric Enderman"
