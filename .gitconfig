@@ -4,6 +4,7 @@
 [user]
 	name = "Esoteric Enderman"
 	email = "90862990+EsotericEnderman@users.noreply.github.com"
+	signingkey = 538675F8CD3D846C
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -18,3 +19,5 @@
 	directory = *
 [pull]
 	rebase = true
+[commit]
+	gpgsign = true
