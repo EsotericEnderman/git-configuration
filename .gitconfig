@@ -1,6 +1,6 @@
 [core]
 	editor = \"C:\\Users\\d\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
-	autocrlf = false
+	autocrlf = true
 [user]
 	name = "Esoteric Enderman"
 	email = "90862990+EsotericEnderman@users.noreply.github.com"
