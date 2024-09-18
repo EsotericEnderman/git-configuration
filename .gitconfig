@@ -1,5 +1,5 @@
 [core]
-	autocrlf = false
+	autocrlf = true
 [user]
 	name = "Esoteric Enderman"
 	email = "90862990+EsotericEnderman@users.noreply.github.com"
