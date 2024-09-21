@@ -1,4 +1,11 @@
 *
 
+!README.md
+!LICENSE.md
+
 !.gitignore
+
+!.vscode
+!.vscode/settings.json
+
 !.gitconfig
