@@ -9,9 +9,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[filter "obsidian-graph-scale-ignore"]
-	clean = sed /"scale"/d
-	smudge = cat
 [credential "https://www.github.com"]
 	provider = github
 [safe]
