@@ -4,16 +4,16 @@
 	name = "Esoteric Enderman"
 	email = "esotericenderman@gmail.com"
 	signingkey = 538675F8CD3D846C
+[credential "https://www.github.com"]
+	provider = github
+[safe]
+	directory = *
+[commit]
+	gpgsign = true
+[pull]
+	rebase = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[credential "https://www.github.com"]
-	provider = github
-[safe]
-	directory = *
-[pull]
-	rebase = true
-[commit]
-	gpgsign = true
